@@ -1,43 +1,41 @@
-# TIW Static UV
+<center>
+<h1> Cody's Shack Proxy </h1>
 
-Modified Version of the <a href="https://github.com/titaniumnetwork-dev/Ultraviolet-App" target="blank">Ultraviolet</a> backend. This modification changes the proxy **CONFIG**, making it work on static pages. 
-<br> <strong> Our Developers That Worked on This Project: </strong>
-NC Gaming#0058 and kwazeh  <center> Join our discord <a href="https://discord.com/invite/XctyeqGGt4" target="_blank" style="text-decoration:none;"> here </a><br>
-<a> <img src="static/logo.gif" style="width:25%; align-self:center;"> </img> </a> 
-</center> <br>
+The **Cody's Shack Proxy** is a one-of-a-kind proxy built off of Ultraviolet that can be run on **static hosting platforms**.
+
+
+Come join **Cody's Shack** on **Discord**!
+
+[![Join Cody's Shack on Discord](https://invidget.switchblade.xyz/z5XBfQm5z8?theme=dark)](https://discord.gg/z5XBfQm5z8)
+
+</center>
 
 ## Features
 
-- Search the web using the FIRST static proxy.
+- Search the web freely, without limits
 - Access to any website
 - Deployable on any static hosting platform
+- Smooth, sleek UI
+- Extremely easy to use
 <br><br>
 
-## Deployment
+## Deployment (to static sites!)
 
-To deploy this website locally, follow these steps:
+You can host the Cody's Shack Proxy on any **static hosting platform**. <br>
+To host, simply **fork this repository** and deploy normally to **Cloudflare Pages**, **GitHub Pages** or another **static host**.
 
-1. Clone the repository: `git clone https://github.com/TheTIW/UV-Static`
-2. Navigate to the project directory: `cd UV-Static`
-3. Open the index.html file in a web browser (Cannot be run locally).
-<br><br>
+## Need help?
 
-## Hosting
+If you need help, feel free to open an issue. I will respond as quickly as possible. :)
 
-You can host this on any static hosting platoform. <br>
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/TheTIW/UV-Static)
-[![Run on Google Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/TheTIW/UV-Static)
-[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/TheTIW/UV-Static) 
-[![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TheTIW/UV-Static)
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/TheTIW/UV-Static)
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or improvements, please create a pull request.
+Contributions are welcome! If you have any suggestions or improvements, please fork this repository, make changes to your fork, and create a pull request.
 <br><br>
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 
 ### Disclamer
-We take no credit for the making of UV. Ultraviolet is made by Titanium Network, and therefore isn't ours. This is just a modification built to it to make it static, allowing you to deploy it on simple hosting platofrms like vercel, netlify, onrender static, and etc. You are welcome to edit files to your need, just credit TIW-UV-Static ;)
+We take no credit for the making of Ultraviolet. Ultraviolet is made by Titanium Network, and therefore isn't ours. <br>
+Cody's Shack uses TIW's static version of Ultraviolet and a custom Bare server to run. We are not taking credit for Bare or TIW's static version of Ultraviolet.<br>
+Want to make your own proxy built off of Cody's Shack? Feel free to! Just make sure to credit me (after all, I didn't get paid for making this) :)
+
+<center>Made with ❤️ by <strong>Cody</strong></center>
