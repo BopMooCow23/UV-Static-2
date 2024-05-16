@@ -10,7 +10,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
    </head>
-   <body style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../codys-shack-background.gif'); background-repeat: no-repeat; background-size: cover; background-color: #000000;">
+   <body onload="myFunction()" style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../codys-shack-background.gif'); background-repeat: no-repeat; background-size: cover; background-color: #000000;">
       <div id="content">
          <h1>cody's shack</h1>
          <form id="uv-form"">
@@ -33,6 +33,27 @@
       <script src="error.js" defer></script>
       <div id="footer">
          <p>&copy; 2024 Cody's Shack. All rights reserved.</p>
+        <p id="demo"></p>
       </div>
+      <script>
+        let user = 'chicken'
+        let pass = 'nugget'
+        
+        function myFunction() {
+          let username = prompt("Enter username");
+          let password = prompt("Enter password");
+          if (username == user) {
+            if (password == pass){
+              alert('Successfully logged in.');
+            } else {
+              alert('Incorrect username/password.');
+              myFunction();
+            }
+          } else {
+            alert('Incorrect username/password');
+            myFunction();
+          }
+        }
+      </script>
    </body>
 </html>
