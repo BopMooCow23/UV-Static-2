@@ -38,19 +38,23 @@
       <script>
         let user = 'chicken'
         let pass = 'nugget'
+        let pin = '0519'
         
         function myFunction() {
           let username = prompt("Enter username");
           let password = prompt("Enter password");
+          let pin = prompt("Enter pin");
           if (username == user) {
             if (password == pass){
+               if (pin == pin){
               alert('Successfully logged in.');
-            } else {
-              alert('Incorrect username/password.');
+               }
+               } else {
+              alert('Incorrect username/password/pin.');
               myFunction();
             }
           } else {
-            alert('Incorrect username/password');
+            alert('Incorrect username/password/pin');
             myFunction();
           }
         }
